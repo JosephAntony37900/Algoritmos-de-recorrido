@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    /*background-color: #0000ff; */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+     background-position: center;
+     background-attachment: contain;
+     background-size: cover;
+        background-size: 100vw 100vh;
+     background-attachment: fixed;
+        margin: 0;
+    
+}
+
+/*Menu*/
+
+.contenedor-header {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .contenedor-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  .contenedor-header header .logo a {
+    font-family: "Righteous";
+    font-size: 36px;
+    color: #ffffffc7;
+    text-decoration: none;
+  }
+  .contenedor-header header ul {
+    display: flex;
+    list-style: none;
+  }
+  .contenedor-header header nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: "Righteous";
+    font-size: 15px;
+
+  }
+  .contenedor-header head nav ul li a:hover {
+    color: #1cb698;
+  }
+
+  /* Carrito */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.heading-1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Car */
+#carrito {
+    padding: 40px 20px;
+}
+
+.container-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-product img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cart-product-details {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.cart-summary {
+    text-align: right;
+}
+
+.cart-summary h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilo de botones */
+.button-primary {
+    background: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+.button-primary:hover {
+    background: #4cae4c;
+}
+
+/* Checkout  */
+.checkout-form {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.checkout-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
