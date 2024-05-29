@@ -1,3 +1,4 @@
+// Inicializacion al Cargar la Pagina
 document.addEventListener('DOMContentLoaded', () => {
     const cartProductsContainer = document.getElementById('cart-products');
     const cartTotalElement = document.getElementById('cart-total');
